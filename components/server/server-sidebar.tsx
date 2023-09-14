@@ -6,10 +6,11 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import { currentProfile } from "@/lib/current-profile";
 import { db } from "@/lib/db";
-import { ServerChannel } from "./server-channel";
+
 import { ServerHeader } from "./server-header";
 import { ServerSearch } from "./server-search";
 import { ServerSection } from "./server-section";
+import { ServerChannel } from "./server-channel";
 import { ServerMember } from "./server-member";
 
 interface ServerSidebarProps {
